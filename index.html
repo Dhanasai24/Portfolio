@@ -82,28 +82,54 @@
       display: block;
       max-width: 100%;
          }
+         #two-sec{
+            max-width: 100%;
+            padding: 0 15px;
+        }
+        
+        
+        
+     .certificate {
+     text-align: center;
+      height: auto; 
+      font-size: 20px; 
+      font-weight: 400;
+      padding: 20px 0; 
+      margin-bottom: 20px; 
+     }
+
+
+        .award {
+        text-align: center;
+        font-size: 25px; 
+       padding: 60px 0 20px; 
+          margin-bottom: 20px; 
+           }
+           @media (max-width: 768px) {
+    .certificate, .award {
+        padding: 20px;
+    }
+
+    .heading-matter {
+        font-size: 1.5rem;
+    }
+
+    .lead {
+        font-size: 1rem;
+    }
+     }
         .certi-part{
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr;
         }
-        .certificate{
-            font-size: 20px;
-            font-weight: 400;
-        }
+      
         .certi-img{
             width: 100%;
             height: 100%;
             float: left;
         }
-        .certificate{
-           
-            text-align: center;
-            height: 50vh;
-            font-size: 30px;
-            padding-bottom: 70px;
-        
-        }
+       
         .certi-matter{
             font-size: 25px;
             
@@ -133,12 +159,7 @@
 
         }
 
-        .award{
-            padding-top: 80px;
-           text-align: center;
-           font-size: 25px;
-            
-        }
+       
        
         
         
@@ -271,7 +292,7 @@
   </div> 
 </section>
 <section id="sec4" >
-    <div class="container">
+    <div id="two-sec"  class="container">
    
         <div  class="certificate" class="position-relative p-5 text-center text-muted bg-body border border-dashed rounded-5">
          
@@ -290,7 +311,7 @@
       </div>  
 </section>
 <section id="sec5" >
-    <div class="container">
+    <div id="two-sec"  class="container">
      <div class="row flex-lg-row align-items-center g-5 py-5">
        
         <div class="award" class="col-lg-6">
